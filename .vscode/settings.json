@@ -1,0 +1,21 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.parameterHints.enabled": false,
+
+    "editor.tokenColorCustomizations": {},
+    "editor.semanticHighlighting.enabled": true,
+
+    "code-runner.executorMap": {
+        "c": "gcc -std=c99 -Wall -Wextra $fullFileName -o $dir$fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true
+}
